@@ -21,7 +21,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:paddingBottom="16dp" />
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/alarm_card"
         android:layout_width="0dp"
@@ -171,65 +170,5 @@
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
-
-<!--    <com.google.android.material.card.MaterialCardView-->
-<!--        android:id="@+id/alarmSetCard"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="16dp"-->
-<!--        app:cardCornerRadius="20dp"-->
-<!--        app:cardElevation="4dp"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/alarm_card"-->
-<!--        app:layout_constraintStart_toStartOf="@id/main"-->
-<!--        app:layout_constraintEnd_toEndOf="@id/main"-->
-<!--        app:layout_constraintBottom_toBottomOf="@id/main">-->
-
-<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            >-->
-
-<!--            <ImageView-->
-<!--                android:id="@+id/alarmSetImage"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                android:src="@drawable/" />-->
-
-<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;                android:id="@+id/alarmSetText"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="Set alarm time:"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="18sp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintBottom_toTopOf="@id/alarmTimeDisplay"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintEnd_toEndOf="parent" />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;                android:id="@+id/alarmTimeDisplay"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="06:30:00 AM"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="18sp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintBottom_toTopOf="@id/cancelAlarmButton"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintEnd_toEndOf="parent" />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <Button&ndash;&gt;-->
-<!--&lt;!&ndash;                android:id="@+id/cancelAlarmButton"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="Cancel Alarm"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:backgroundTint="#FF5722"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                app:layout_constraintStart_toStartOf="parent" />&ndash;&gt;-->
-
-<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
-<!--    </com.google.android.material.card.MaterialCardView>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
